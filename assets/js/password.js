@@ -9,8 +9,8 @@ var lower = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n
 var special = ['!', '@', '#', '$', '%', '^', '&', '*'];
 var characters = [];
 
-len = window.prompt('How long does your password need to be? (Must be between 6-50 characters)');
-if (len < 6 || len > 50){
+len = window.prompt('How long does your password need to be? (Must be between 8-128 characters)');
+if (len < 8 || len > 128){
     window.alert("Please chose a length within the constraints.");
   } else {
   }
